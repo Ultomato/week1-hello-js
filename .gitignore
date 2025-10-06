@@ -1,0 +1,12 @@
+# VS Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+
+# Node.js dependencies (future use)
+node_modules/
+
+# Build/output folders
+dist/
+build/
