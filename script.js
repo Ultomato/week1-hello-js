@@ -24,3 +24,11 @@ heading.addEventListener("click", () => {
 para.addEventListener("click", () => {
  para.textContent = "New Paragraph!";
 });
+const greetBtn = document.querySelector("#greetBtn");
+const nameInput = document.querySelector("#nameInput");
+const greeting = document.querySelector("#greeting");
+
+greetBtn.addEventListener("click", () => {
+  const name = nameInput.value.trim();
+  greeting.textContent = name ? `Hello, ${name}! 👋` : "Please type your name.";
+});
